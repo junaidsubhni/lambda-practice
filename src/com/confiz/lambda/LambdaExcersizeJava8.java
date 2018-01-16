@@ -16,6 +16,8 @@ public class LambdaExcersizeJava8 {
 				new Person("Jhon", "Snow", 24), 
 				new Person("Doe", "Jhon", 23), 
 				new Person("Junaid", "Subhani", 22));
+		
+		people.forEach(System.out::println);
 
 		System.out.println("Person list unSorted");
 		printConditionally(people, p -> true, p -> System.out.println(p));
